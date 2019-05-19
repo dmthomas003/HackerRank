@@ -1,0 +1,15 @@
+money cost redeem
+
+7  3 2
+6  2 2 
+12 4 4
+10 2 5
+
+
+money --> eaten
+cost --> wrappers
+
+eaten(1) = money / cost		eaten 2
+wrappers = eaten(1)		2 wrappers
+eaten(2) = eaten(1) + (wrappers / redeem) 
+wrappers = wrappers + (wrappers / redeem) - ((wrappers / redeem) * redeem)
